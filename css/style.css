@@ -1,0 +1,141 @@
+*{
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #153f59;
+    padding: 10px 0;
+  }
+  
+  header nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  header nav ul li {
+    margin: 0 15px;
+  }
+  
+  header nav ul li.logo {
+    margin-right: auto;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  header nav ul li.logo a img {
+    height: 50px;
+  }
+  
+  .carrousel {
+    background-image: url("/img/hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .carrousel h1{
+    margin-top: 40px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+  }
+
+  #carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  #carrousel-container img {
+    display: none;
+    max-width:70%;
+  }
+  
+  #carrousel-container img.active {
+    display: block;
+    margin: 15px auto;
+  }
+  
+  button {
+    margin: 0 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  #next {
+    position: absolute;
+    right: 100px;
+  }
+  #prev {
+    position: absolute;
+    left: 100px;
+  }
+
+  footer{
+    background-color: #153f59;
+    padding: 10px;
+    color: #ffff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-cont {
+    display: flex;
+    justify-content: space-around;
+
+  }
+  
+  .footer-cont .contact-columna {
+    flex: 1;
+    margin: 0 40px;
+  }
+  
+  .cont-text {
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .footer-cont p {
+    margin: 5px 0;
+  }
+
+  .cont-social{
+    display:flex;
+    padding:10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social-text{
+    padding:10px;
+  }
+
+  .social-img{
+  display:flex;
+  justify-content: center;
+  aling-items:center;
+  }
+
+  .social-img img{
+    width:40px;
+    height:40px;
+  }
+
