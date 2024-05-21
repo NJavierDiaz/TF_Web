@@ -11,7 +11,7 @@ body {
   
   header {
     background-color: #153f59;
-    padding: 10px 0;
+    padding-top: 10px;
   }
   
   header nav ul {
@@ -35,9 +35,6 @@ body {
     font-size: 18px;
   }
   
-  header nav ul li.logo a img {
-    height: 50px;
-  }
   
   .carrousel {
     background-image: url("/img/hero.jpg");
