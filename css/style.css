@@ -43,7 +43,7 @@ body {
   }
   
   .carrousel {
-    background-image: url("img/hero.jpg");
+    background-image: url("/img/hero.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -242,7 +242,7 @@ form {
 }
 
 #somos .img-container {
-  background-image: url("../img/banner.jpg");
+  background-image: url("./img/banner.jpg");
   background-size: cover;
   background-position: center;
   height: 200px;
