@@ -136,3 +136,167 @@ body {
     height:40px;
   }
 
+
+  //Contacto
+
+  body {
+  
+}
+
+.desc_contact, .formulario {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.cont_tit {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.desc_contact h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.desc_contact h3 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.formulario input, textarea, select, .enviar {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.formulario .enviar {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formulario button:hover {
+    background-color: #45a049;
+}
+
+#error-container, #success-container {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#error-container {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+#success-container {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+//Nosotros
+
+#somos {
+  background-color: #e9ecef;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+#somos .container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#somos .img-container {
+  background-image: url("/img/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+#somos h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+.servicios {
+  background-color: #153f59;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.servicios .titulo h1 {
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.servicios .titulo p {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.content-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.servicio {
+  background-color: #153f59;
+  margin: 10px;
+  padding: 20px;
+  max-width: 200px;
+  text-align: center;
+}
+
+.servicio_media {
+  margin-bottom: 15px;
+}
+
+.servicio_media img {
+  width: 80px;
+  height: 80px;
+  filter: invert(1)
+}
+
+.servicio h4 {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.feature-item-content {
+  font-size: 16px;
+  color: #555;
+}
