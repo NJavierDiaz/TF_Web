@@ -3,6 +3,10 @@
   list-style: none;
 }
 
+a {
+  
+}
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -106,10 +110,10 @@ body {
     margin: 0 40px;
   }
   
-  .cont-text {
+  .cont-text a {
     align-items: center;
     justify-content: center;
-    
+    color:#fff
   }
   
   .footer-cont p {
