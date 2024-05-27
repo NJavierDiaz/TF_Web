@@ -34,7 +34,9 @@ body {
     color: #fff;
     font-size: 18px;
   }
-  
+  header nav ul li:not(.logo) a:hover {
+    color: #00bfff;
+  }
   
   .carrousel {
     background-image: url("/img/hero.jpg");
@@ -112,6 +114,7 @@ body {
   
   .footer-cont p {
     margin: 5px 0;
+    color:#fff;
   }
 
   .cont-social{
@@ -299,4 +302,115 @@ form {
 .feature-item-content {
   font-size: 16px;
   color: #555;
+}
+
+
+  @media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 20px;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+
+    header nav ul li.logo {
+        margin-right: 0;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+    }
+
+    .carrousel h1 {
+        font-size: 24px;
+    }
+
+    #carousel-container img {
+        max-width: 90%;
+    }
+
+    button {
+        margin: 10px 0;
+        padding: 10px 20px;
+    }
+
+    #next {
+        right: 20px;
+    }
+
+    #prev {
+        left: 20px;
+    }
+
+    .footer-cont {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-cont .contact-columna {
+        margin: 20px 0;
+    }
+
+    .desc_contact, .formulario {
+        padding: 10px;
+        width:95%;
+    }
+
+    .desc_contact h2 {
+        font-size: 20px;
+    }
+
+    .desc_contact h3 {
+        font-size: 18px;
+    }
+
+    form {
+        padding: 10px;
+    }
+
+    .formulario input, textarea, select, .enviar {
+        font-size: 14px;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+  header nav ul li a {
+    font-size: 18px;
+}
+
+.carrousel h1 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 8px 16px;
+}
+
+
+.footer-cont {
+    text-align: center;
+}
+
+.desc_contact, .formulario {
+    padding: 5px;
+    width:95%;
+}
+
+.desc_contact h2 {
+    font-size: 18px;
+}
+
+.desc_contact h3 {
+    font-size: 16px;
+}
+
+.formulario input, textarea, select, .enviar {
+    font-size: 12px;
+}
 }
